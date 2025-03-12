@@ -1,4 +1,4 @@
-package fr.SMA.Plugin.command;
+package fr.SMA.Plugin.commands;
 
 
 
