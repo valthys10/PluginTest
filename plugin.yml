@@ -1,0 +1,4 @@
+name: Plugin
+version: 1.0
+author: valthys
+main: fr.valthys.Plugin.MainPlugin
