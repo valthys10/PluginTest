@@ -1,0 +1,10 @@
+name: PluginTest
+version: '1.0'
+main: fr.SMA.Plugin.Main
+api-version: '1.19'
+author: SMA
+
+
+commands:
+  spawn:
+    description: Permet de se tp au spawn

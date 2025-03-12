@@ -1,8 +1,9 @@
-package fr.SMA.Plugin.Command;
+package fr.SMA.Plugin.command;
 
-import java.lang.reflect.AccessFlag.Location;
+
 
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -17,10 +18,11 @@ public class Spawn implements CommandExecutor{
 			
 			
 			Location spawn = new Location(Bukkit.getWorld("world") , -0.5,100,-0.5);
-		
+			player.sendMessage("Bienvenue au hub");
+			player.teleport(spawn);
 			
 			
 		}
-	return false
+	return false;
 	}
 }
